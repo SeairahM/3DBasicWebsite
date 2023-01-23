@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Object</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <img src="/assets/logo.png" alt="logo"/>
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <div id="aSide">
+            <model-viewer src="/assets/FurTree.gltf" alt="Fur Tree" auto-rotate camera-controls ar ios-src="assets/FurTree.gltf"></model-viewer>
+        </div>
+        <div id="content">
+            <h2>A Fur Tree 3D Model</h2>
+            <p>A masic archimesh model add on created in Blender 3.4!</p>
+            <button>Shop</button>
+        </div>
+        <div id="icons">
+            <div id="iconsLogo">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
